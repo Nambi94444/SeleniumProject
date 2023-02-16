@@ -31,6 +31,7 @@ public class BasePageNavigation extends Base {
 		LoginPage.EmailIdElement().sendKeys(A);
 		LoginPage.Password().sendKeys(G);
 		LoginPage.Mover();
+		System.out.println("All Done");
 
 	}
 
